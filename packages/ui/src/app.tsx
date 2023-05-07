@@ -1,9 +1,14 @@
+import React from 'react';
+import { Button } from './components/button';
 import { styled } from './themes/config';
 
 export function App() {
   return (
     <>
       <div>
+        <Row>
+          <Button>Test</Button>
+        </Row>
         <Row>
           <Palette css={{ backgroundColor: '#03045e' }}>1</Palette>
           <Palette css={{ backgroundColor: '#0077b6' }}>2</Palette>

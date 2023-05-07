@@ -13,6 +13,10 @@ export { globalStyles } from './themes/global-styles';
 
 // Components
 export { Logo, LogoIcon, LogoWordmark } from './components/logo';
+export { Button } from './components/button';
+
+// Elements types
+export type { ButtonProps } from './components/button';
 
 // Elements
 export { Flex } from './elements/flex';
